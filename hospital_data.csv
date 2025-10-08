@@ -1,0 +1,16 @@
+Patient_ID,Name,Age,Disease,Treatment_Cost
+P001,Rajesh Kumar,45,Diabetes,15000
+P002,Priya Sharma,28,Flu,2500
+P003,Amit Patel,67,Heart Disease,75000
+P004,Sneha Reddy,34,Asthma,8000
+P005,Vikram Singh,52,Cancer,85000
+P006,Anjali Gupta,8,Pneumonia,12000
+P007,Arjun Mehta,71,Diabetes,18000
+P008,Kavita Iyer,41,Heart Disease,65000
+P009,Rahul Desai,19,Flu,1500
+P010,Meera Nair,55,Cancer,92000
+P011,Sanjay Verma,63,Pneumonia,14000
+P012,Pooja Joshi,25,Asthma,6500
+P013,Karan Malhotra,38,Diabetes,16500
+P014,Deepika Rao,14,Flu,2000
+P015,Aditya Chopra,76,Heart Disease,70000
