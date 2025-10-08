@@ -26,7 +26,7 @@ def about_project():
     print("- Developer 3: [Sean Ambrose]")
     print("- Developer 4: [Ayush Raybhar]")
     print("")
-    print("Github - ")
+    print("Github - https://github.com/GraphicsAndroid65/Hospital_Management_System")
 
 def menu():
     print("\n" + "="*50)
