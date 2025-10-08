@@ -75,14 +75,18 @@ Hospital_management/
 
 ```mermaid
 graph TD
-    A[Hospital_Management.py] --> B[task1.py - Disease Analysis]
-    A --> C[task2.py - Expensive Treatments]
-    A --> D[task3.py - Age Classification]
+    A[Hospital_Management.py] --> B[task1.py]
+    A --> C[task2.py]
+    A --> D[task3.py]
     A --> E[hospital_data.csv]
     
-    B --> F[pandas.groupby()]
-    C --> G[pandas.sort_values()]
-    D --> H[pandas.apply()]
+    B --> F[Disease Analysis]
+    C --> G[Expensive Treatments]
+    D --> H[Age Classification]
+    
+    F --> I[pandas.groupby]
+    G --> J[pandas.sort_values]
+    H --> K[pandas.apply]
 ```
 
 ---
@@ -194,6 +198,8 @@ Least Expensive: Flu
 <div align="center">
 
 ### 🌟 **Star this repository if you found it helpful!** 🌟
+
+**Made with ❤️ by Team Hospital Management**
 
 [⬆ Back to Top](#-hospital-patient-data-analysis-system)
 
