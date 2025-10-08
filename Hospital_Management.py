@@ -1,7 +1,7 @@
 import pandas as pd
-from task1 import disease_analysis
-from task2 import expensive_treatments
-from task3 import age_groups
+from diseases import disease_analysis
+from costs import expensive_treatments
+from ages import age_groups
 
 def show_data():
     df = pd.read_csv('hospital_data.csv')

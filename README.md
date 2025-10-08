@@ -52,7 +52,6 @@ The **Hospital Patient Data Analysis System** is a modular Python application de
 |------------|---------|---------|
 | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | 3.8+ | Core Programming Language |
 | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) | Latest | Data Analysis & Manipulation |
-| ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) | Latest | Numerical Computing Support |
 
 </div>
 
@@ -63,30 +62,11 @@ The **Hospital Patient Data Analysis System** is a modular Python application de
 ```
 Hospital_management/
 ├── 📄 Hospital_Management.py     # Main application entry point
-├── 📄 task1.py                   # Disease cost analysis module
-├── 📄 task2.py                   # Expensive treatments module  
-├── 📄 task3.py                   # Age group classification module
+├── 📄 diseases.py                # Disease cost analysis module
+├── 📄 costs.py                   # Expensive treatments module  
+├── 📄 ages.py                    # Age group classification module
 ├── 📊 hospital_data.csv          # Patient dataset (15 records)
-├── 📋 requirements.txt           # Python dependencies
 └── 📘 README.md                  # This file
-```
-
-### 🏗️ Architecture Overview
-
-```mermaid
-graph TD
-    A[Hospital_Management.py] --> B[task1.py]
-    A --> C[task2.py]
-    A --> D[task3.py]
-    A --> E[hospital_data.csv]
-    
-    B --> F[Disease Analysis]
-    C --> G[Expensive Treatments]
-    D --> H[Age Classification]
-    
-    F --> I[pandas.groupby]
-    G --> J[pandas.sort_values]
-    H --> K[pandas.apply]
 ```
 
 ---
@@ -99,8 +79,8 @@ graph TD
 git clone https://github.com/yourusername/hospital-patient-analysis.git
 cd hospital-patient-analysis
 
-# 2. Install requirements
-pip install -r requirements.txt
+# 2. Install pandas
+pip install pandas
 
 # 3. Run the program
 python Hospital_Management.py
@@ -170,9 +150,9 @@ Least Expensive: Flu
 
 ### Key Learning Concepts
 - **Data Loading**: CSV file handling with pandas
-- **Data Grouping**: Using `groupby()` for categorical analysis
+- **Data Grouping**: Using `groupby()` for categorical analysis  
 - **Data Sorting**: Implementing `sort_values()` for ranking
-- **Custom Functions**: Creating and applying user-defined functions
+- **Custom Functions**: Creating and applying user-defined functions with `apply()`
 - **Modular Programming**: Separating concerns across multiple files
 
 
@@ -189,9 +169,9 @@ Least Expensive: Flu
 | Developer | Module | Contributions |
 |-----------|--------|---------------|
 | **Mangesh Choudhary** | Hospital_Management.py | Main program and menu system |
-| **Riya Singh** | task1.py | Disease analysis and cost calculations |
-| **Ayush Raybhar** | task2.py | Expensive treatments identification |
-| **Sean Ambrose** | task3.py | Age group classification system |
+| **Riya Singh** | diseases.py | Disease analysis and cost calculations |
+| **Ayush Raybhar** | costs.py | Expensive treatments identification |
+| **Sean Ambrose** | ages.py | Age group classification system |
 
 ---
 
