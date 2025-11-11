@@ -169,9 +169,9 @@ Least Expensive: Flu
 | Developer | Module | Contributions |
 |-----------|--------|---------------|
 | **Mangesh Choudhary** | Hospital_Management.py | Main program and menu system |
-| **Riya Singh** | diseases.py | Disease analysis and cost calculations |
-| **Ayush Raybhar** | costs.py | Expensive treatments identification |
-| **Sean Ambrose** | ages.py | Age group classification system |
+| **Ayush Raybhar** | diseases.py | Disease analysis and cost calculations |
+| **Sean Ambrose** | costs.py | Expensive treatments identification |
+| **Riya Singh** | ages.py | Age group classification system |
 
 ---
 
